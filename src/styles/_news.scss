@@ -1,0 +1,13 @@
+/* News template */
+/* @TODO need to figure out why this is not scoped css */
+
+.two-col {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	padding: calc(var(--headerHeight) + 1em) var(--containerPadding);
+}
+ul {
+	list-style: none;
+	padding-inline-start: 0;
+	/* margin-block-start: ; */
+}

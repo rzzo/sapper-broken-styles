@@ -1,0 +1,28 @@
+.post-header {
+	background: white;
+	padding: 1em;
+	margin: 0.5em;
+	border-radius: 12px;
+	box-shadow: var(--level-1);
+	// max-width: 40em;
+}
+
+h5 {
+	padding: 0;
+	margin: 0 0 0.5em 0;
+	font-size: 0.75em;
+	color: var(--darkGray);
+}
+
+h4 {
+	margin: 0 0 0.25em 0;
+
+	a {
+		color: var(--primary);
+		text-decoration: none;
+	}
+}
+
+p {
+	margin: 0;
+}
